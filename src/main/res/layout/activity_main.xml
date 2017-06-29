@@ -1,0 +1,241 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:fillViewport="false"
+    android:id="@+id/scrollView"
+    android:background="#1ABC9C">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/theEssentialMichaelJacksonText"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:text="The Essential Michael Jackson"
+                android:editable="false"
+                android:inputType="none"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/billieJeanImage"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/billieJeanText"
+                android:layout_gravity="right"
+                android:text="Billie Jean By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/beatItImage"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/beatItText"
+                android:layout_gravity="right"
+                android:text="Beat It By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/smoothCriminalImage"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smoothCriminalText"
+                android:layout_gravity="right"
+                android:text="Smooth Criminal By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/manInTheMirrorImage"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/manInTheMirrorText"
+                android:layout_gravity="right"
+                android:text="Man in the mirror By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/thrillerImage"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/thrillerText"
+                android:layout_gravity="right"
+                android:text="Thriller By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/theWayYouMakeMeFeelImage"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/theWayYouMakeMeFeelText"
+                android:layout_gravity="right"
+                android:text="The Way You Make Me Feel By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/pytImage"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pytText"
+                android:layout_gravity="right"
+                android:text="P.Y.T. (Pretty Young Thing) By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/badImage"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/badText"
+                android:layout_gravity="right"
+                android:text="Bad By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/dontStopTilYouGetEnoughImage"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dontStopTilYouGetEnoughText"
+                android:layout_gravity="right"
+                android:text="Don't Stop 'Til You Get Enough By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/blackOrWhiteImage"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blackOrWhiteText"
+                android:layout_gravity="right"
+                android:text="Black or White By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/rockWithYouImage"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rockWithYouText"
+                android:layout_gravity="right"
+                android:text="Rock With You By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/wannaBeStartinSomethinImage"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/wannaBeStartinSomethinText"
+                android:layout_gravity="right"
+                android:text="Wanna Be Startin' Somethin By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theessentialmichaeljackson"
+                android:id="@+id/dirtyDianaImage"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dirtyDianaText"
+                android:layout_gravity="right"
+                android:text="Dirty Diana By: Michael Jackson"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:inputType="none"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
